@@ -1,0 +1,455 @@
+body {
+    /* Encriptador - 1 Desktop */
+
+
+    position: relative;
+
+    /* Light blue/light-blue-100 */
+
+    background: #F3F5FC;
+}
+
+
+#text {
+    /* Ingrese el texto aqui */
+
+    position: absolute;
+    width: 700px;
+    height: 500px;
+    left: 240px;
+    top: 168px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    /* identical to box height, or 48px */
+
+
+    /* Dark blue/dark-blue-300 */
+    background: #F3F5FC;
+    color: #0A3871;
+    resize: none;
+    outline: none;
+    border: none;
+
+
+}
+
+#text::placeholder {
+    /* Ingrese el texto aqui */
+    color: #0A3871;
+}
+
+
+.botones {
+    /* Frame 3 */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    position: absolute;
+    width: 680px;
+    height: 67px;
+    left: 240px;
+    top: 780px;
+
+
+
+
+}
+
+
+
+
+#buttonEncriptar {
+
+
+    width: 288px;
+    height: 67px;
+
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    /* Dark blue/dark-blue-300 */
+    color: #FFFFFF;
+    background: #0A3871;
+    border-radius: 24px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+
+
+}
+
+#buttonEncriptar:hover {
+    /* Button */
+    background-color: #FFFFFF;
+    color: #0A3871;
+    cursor: pointer;
+}
+
+
+
+
+
+
+#buttonDesencriptar {
+    /* Button */
+
+
+    width: 288px;
+    height: 67px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    /* Dark blue/dark-blue-300 */
+
+    color: #0A3871;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+
+}
+
+#buttonDesencriptar:hover {
+    /* Button */
+    background-color: #0A3871;
+    color: #F3F5FC;
+    cursor: pointer;
+}
+
+.icon-alura {
+
+    /* Vector */
+
+
+    position: absolute;
+    left: 5%;
+    right: 37.43%;
+    top: 20%;
+    bottom: 0%;
+    margin-top: 25px;
+
+}
+
+
+.info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+
+    position: absolute;
+    width: 229px;
+    height: 18px;
+    left: 240px;
+    top: 700px;
+
+
+}
+
+.info-text {
+    /* Solo letras minúsculas y sin acentos */
+
+
+    width: 205px;
+    height: 18px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    /* identical to box height, or 18px */
+
+
+    /* Gray/gray-400 */
+
+    color: #495057;
+
+    opacity: 0.8;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+.img-lateral {
+    /* Rectangle 1 */
+
+
+    position: absolute;
+    width: 400px;
+    height: 850px;
+    left: 1450px;
+    top: 20px;
+
+    /* White */
+
+    background: #FFFFFF;
+    /* shadow */
+
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+
+
+
+
+}
+
+
+.no-text-mensaje {
+    /* Rectangle 1 */
+
+
+    position: absolute;
+    width: 400px;
+    height: 850px;
+    left: 1450px;
+    top: 20px;
+
+    /* White */
+
+    background: #FFFFFF;
+    /* shadow */
+
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+
+
+
+
+}
+
+
+.muñeco {
+    width: 330px;
+    height: 290px;
+    top: 280px;
+    left: 20px;
+    margin-top: 200px;
+    margin-left: 30px;
+}
+
+
+#buttonCopiar {
+    /* Button */
+
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    width: 288px;
+    height: 67px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    position: absolute;
+    width: 336px;
+    height: 67px;
+    left: 40px;
+    top: 750px;
+    text-align: center;
+
+    /* Dark blue/dark-blue-300 */
+
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+
+
+
+}
+
+#buttonCopiar:hover {
+    /* Button */
+    background-color: #0A3871;
+    color: #F3F5FC;
+    cursor: pointer;
+}
+
+
+#resultado {
+    position: absolute;
+    width: 336px;
+    height: 680px;
+    left: 30px;
+    top: 30px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    /* or 36px */
+
+
+    /* Gray/gray-400 */
+
+    color: #495057;
+    resize: none;
+    outline: none;
+    border: none;
+
+
+}
+
+
+.oculto {
+    display: none;
+}
+
+#no-mensaje {
+    width: 400px;
+    height: 50px;
+    top: 459px;
+    padding-bottom: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    color: #343A40;
+
+
+
+}
+
+
+#ingresa-texto {
+    /* Ingresa el texto que desees encriptar o desencriptar. */
+    width: 400px;
+    top: 40px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    /* or 24px */
+
+    /* Gray/gray-400 */
+
+    color: #495057;
+
+
+    /* Inside auto layout */
+
+
+
+
+}
+
+h1 {
+
+    text-align: center;
+}
+
+
+@media screen and (max-width: 390px) {
+
+
+    body {
+        width: 355px;
+    }
+
+    .muñeco {
+        display: none;
+    }
+
+
+
+    .imagen-logo-alura {
+        position: absolute;
+        left: -2px;
+        top: 24px;
+    }
+
+    .img-lateral {
+        position: absolute;
+        width: 400px;
+        height: 850px;
+        left: 89px;
+        top: 1055px;
+        background: #FFFFFF;
+        box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+        border-radius: 32px;
+    }
+
+    .no-text-mensaje{
+        position: absolute;
+        width: 400px;
+        height: 850px;
+        left: 89px;
+        top: 1055px;
+        background: #FFFFFF;
+        box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+        border-radius: 32px;
+    
+    
+    }
+
+    .botones {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 24px;
+        position: absolute;
+        width: 343px;
+        height: 158px;
+        left: 147px;
+        top: 485px;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 8px;
+        position: absolute;
+        width: 229px;
+        height: 18px;
+        left: 181px;
+        top: 700px;
+    }
+
+    
+}

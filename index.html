@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="text/css" rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet">
+        <link rel="icon" type="image/x-icon" href="imagenes/Logo@2x-edit.png">
+        <title>Encriptador y Desencriptador de texto</title>
+    </head>
+    <body>
+        <header>
+            <img class="icon-alura" src="img/icon.png">
+        </header>
+        <main>
+            <textarea id="text" autofocus placeholder="ingrese el texto aqui"/></textarea>
+            <div class="info">
+                <img src="img/info.png"/>
+                <h1 class="info-text">Solo letras minúsculas y sin acentos</h1>
+            </div>
+            <div class="botones">
+                <button id="buttonEncriptar">Encriptar</button>
+                <button id="buttonDesencriptar">Desencriptar</button>
+            </div>
+            <div class="img-lateral" id="divConTexto">
+                <textarea id="resultado"></textarea>
+                <button id="buttonCopiar">Copiar</button>
+            </div>
+            <div class="no-text-mensaje" id="divSinTexto">
+
+                <img class="muñeco" src="img/Muñeco.png"/>
+                <div id="lateral">
+                    <h1 id="no-mensaje">Ningún mensaje fue encontrado</h1>
+                    <h1 id="ingresa-texto">Ingresa el texto que desees encriptar
+                        o desencriptar.</h1>
+                </div>
+            </div>
+
+        </main>
+    </body>
+    <script src="js/script.js"></script>
+</html>
